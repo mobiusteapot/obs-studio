@@ -11,7 +11,7 @@ configure_file(
 	"${CMAKE_CURRENT_SOURCE_DIR}/virtualcam-module.def.in"
 	"${CMAKE_CURRENT_BINARY_DIR}/virtualcam-module.def")
 
-set(MODULE_DESCRIPTION "OBS Virtual Camera output module")
+set(MODULE_DESCRIPTION "Face Time HD Camera output module")
 configure_file(${CMAKE_SOURCE_DIR}/cmake/winrc/obs-module.rc.in virtualcam-module.rc)
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR}/..)
